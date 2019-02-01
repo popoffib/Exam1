@@ -186,7 +186,7 @@ def multiply_primes(m,n):
     # After you have coded and tested, change this _TODO_ to DONE.
     ###############################################################################
     total = 0
-    for k in range(m, n+1):
+    for k in range(m, n):
         total = total + (k*count_primes(m, n))
 
     return total
