@@ -99,7 +99,7 @@ def draw_a_picture(point, n, color, window):
     circle.fill_color = color
 
     for k in range(n):
-        circle = rg.Circle(rg.Point(circle.center.x + 25, circle.center.y - 15), 50)
+        circle = rg.Circle(rg.Point(circle.center.x + 25, circle.center.y + 15), 50)
         circle.fill_color = color
         circle.attach_to(window)
 
