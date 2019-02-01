@@ -69,11 +69,21 @@ def test_count_primes():
     print('Actual count = ', count_primes(1, 3))
 
     ###############################################################################
-    #   TODO: 3. Add the additional test cases for this function below
+    #   DONE: 3. Add the additional test cases for this function below
     # After you have coded this, change its _TODO_ to DONE.
     ###############################################################################
     print()
-    print('Your tests will go here!')
+    print('Test 2 of count primes')
+    print('m = 20 and n = 22')
+    print('Expected count = 0')
+    print('Actual count = ', count_primes(20, 22))
+
+    print()
+    print('Test 3 of count primes')
+    print('m = 2 and n = 8')
+    print('Expected count = 4')
+    print('Actual count =', count_primes(2, 8))
+
     return
 
 
